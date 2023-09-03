@@ -1,0 +1,170 @@
+.bookNowContainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.leftBookingSide {
+  width: 50%;
+  padding: 15px;
+}
+
+.bookingImage {
+  height: 85%;
+  width: 80%;
+}
+
+.circles {
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 16px;
+  border-color: #f8e27e;
+  border-radius: 50%;
+  opacity: 20%;
+}
+
+.arrangeItems {
+  display: flex;
+}
+
+.rightBookingSide {
+  width: 50%;
+  padding: 15px;
+}
+
+.bookingBox {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bookingHeading {
+  font-size: 27px;
+}
+
+.inputLabel {
+  font-family: roboto;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.cityInput {
+}
+
+.cityInputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  /* align-items: center; */
+}
+
+.inputBox {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  height: 40px;
+  padding: 5px;
+  font-family: roboto;
+  font-size: 15px;
+  outline: none;
+}
+
+.inputBoxs {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  height: 40px;
+  padding: 5px;
+  font-family: roboto;
+  font-size: 15px;
+  outline: none;
+  width: 90%;
+}
+
+.dateBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.boxDate {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.detailsBoxes {
+  width: 50%;
+  padding: 5px;
+}
+
+.roomAndRating {
+  display: flex;
+  align-items: center;
+}
+
+.leftClick {
+  border-style: none;
+  font-weight: bold;
+  background-color: #ebebeb;
+  color: #000000;
+  font-family: roboto;
+  height: 40px;
+  width: 90%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rightClick {
+  border-style: none;
+  font-weight: bold;
+  background-color: #ebebeb;
+  color: #000000;
+  font-family: roboto;
+  height: 40px;
+  width: 90%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.texts {
+  /* display: inline; */
+  background-color: #f3f3f3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.inputLabels {
+  font-family: roboto;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: -5px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 400px) {
+  .inputLabel {
+    font-size: 8px;
+  }
+}
+
+.bookingButton {
+  font-family: roboto;
+  color: #ffffff;
+  background-color: #000000;
+  border-style: none;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

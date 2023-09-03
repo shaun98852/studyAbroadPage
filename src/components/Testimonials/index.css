@@ -1,0 +1,56 @@
+.testimonial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.names {
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 401;
+  opacity: 60%;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.name {
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 401;
+  opacity: 60%;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 10px;
+  }
+}
+
+.horizontalLine {
+  background-color: #a0cd9e;
+  height: 1px;
+  border-style: none;
+  /* border-style: solid; */
+  border-color: #a0cd9e;
+  width: 40%;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.authorImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}

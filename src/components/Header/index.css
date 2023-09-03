@@ -1,0 +1,54 @@
+.headerBox {
+  display: flex;
+  justify-content: center;
+}
+
+.headerBackground {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.headerDetails {
+  font-family: roboto;
+  font-weight: 420;
+  margin-right: 5%;
+}
+
+.headerDetail {
+  font-family: roboto;
+  font-weight: 420;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 647px) {
+  .headerDetails {
+    margin-bottom: 0px;
+  }
+}
+
+.coursesButton {
+  background-color: orange;
+  border-style: none;
+  color: #ffffff;
+  border-radius: 17px;
+  height: 40px;
+  padding: 10px;
+}

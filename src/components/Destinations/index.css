@@ -1,0 +1,92 @@
+.destination {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.leftSide {
+  width: 50%;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.studentImage {
+  height: 95%;
+  width: 90%;
+  /* background-color: orange; */
+}
+
+.sphere {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border-top-left-radius: 100px;
+  border: 10px solid #be554b;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.para {
+  margin-bottom: 0px;
+}
+
+.destiHeading {
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.destiPara {
+}
+
+@media screen and (min-width: 768px) {
+  .destiHeading {
+    font-size: 60px;
+  }
+  .para {
+    font-size: 30px;
+  }
+}
+
+.spanElement {
+  font-weight: 450;
+}
+
+.signupButton {
+  border-style: none;
+  border-radius: 20px;
+  background-color: #f27a44;
+  color: #ffffff;
+  font-family: roboto;
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.quarter {
+  height: 20px;
+  width: 20px;
+  background-color: #87cc81;
+  border-bottom-right-radius: 100px;
+  border-top: 0;
+  margin-bottom: 0px;
+}
+
+.circle {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  border-color: #87cc81;
+  border-style: solid;
+  background-color: transparent;
+  align-self: flex-end;
+  margin-right: 20%;
+}

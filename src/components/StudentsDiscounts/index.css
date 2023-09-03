@@ -1,0 +1,96 @@
+.studentsDiscounts {
+  display: flex;
+  align-items: center;
+}
+
+.leftDiscount {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightDiscount {
+  width: 50%;
+  padding: 15px;
+}
+
+.discountImage {
+  height: 85%;
+  width: 80%;
+}
+
+.rightSides {
+  width: 50%;
+  padding: 10px;
+}
+
+.adventureHeadingss {
+  /* margin-bottom: 0px; */
+  font-size: 18px;
+}
+
+.destiParas {
+  font-size: 12px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .adventureHeadingss {
+    font-size: 40px;
+  }
+  .destiParas {
+    font-size: 22px;
+  }
+}
+
+.shapesBoxess {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spheress {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border-top-left-radius: 100px;
+  border: 10px solid #be554b;
+  border-bottom: 0;
+  border-right: 0;
+  align-self: flex-end;
+}
+
+.rightCircles {
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 16px;
+  border-color: #87cc81;
+  border-radius: 50%;
+  opacity: 20%;
+}
+
+.spanElements {
+  font-weight: 450;
+}
+
+.ulLists {
+  padding-left: 3%;
+  margin-top: 0px;
+}
+
+.listItems {
+  margin-bottom: 7px;
+}
+
+.ExploreMores {
+  border-style: none;
+  border-radius: 20px;
+  background-color: #f27a44;
+  color: #ffffff;
+  font-family: roboto;
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+}
